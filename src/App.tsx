@@ -1,13 +1,19 @@
+import { Fragment } from 'react/jsx-runtime'
 import './App.css'
+import ByTheNumber from './components/sections/ByTheNumber'
+import About from './components/sections/About'
+import Ventures from './components/sections/Ventures'
+import Footer from './components/sections/Footer'
 
 function App() {
 
   return (
-    <>
-      <h1 className="text-4xl font-bold underline text-red-400">
-        Hello world!
-      </h1>
-    </>
+    <Fragment>
+      <ByTheNumber />
+      <About />
+      <Ventures />
+      <Footer />
+    </Fragment>
   )
 }
 
