@@ -1,8 +1,8 @@
 export default function About() {
     return (
-        <section className="flex justify-center text-white gap-12">
-            <div className="w-[700px]">
-                <header className="flex flex font-bold mb-6 text-[42px]">About</header>
+        <section className="flex flex-col-reverse xl:flex-row justify-center items-center text-white gap-12">
+            <div className="w-3/4 md:w-[700px]">
+                <header className="flex justify-center xl:justify-start font-bold mb-6 text-[42px]">About</header>
                 <section className="flex flex-col gap-4 text-[18px]">
                     <div>I've been building online businesses for over a decade, but the path wasn't linear.</div>
                     <div>I started out experimenting with everything I could — flipping products, Amazon FBA, forex, crypto, and digital marketing. Most of it didn't stick, but it laid the foundation for what came next.</div>
