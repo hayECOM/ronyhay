@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Ventures() {
     return (
-        <section className="flex flex-col gap-16 mt-24 mb-18 text-white">
+        <section className="flex flex-col gap-16 pt-24 pb-18 text-white">
             <header className="flex flex justify-center font-bold text-[42px]">Ventures</header>
             <section className="flex flex-col justify-center gap-8">
                 <motion.div

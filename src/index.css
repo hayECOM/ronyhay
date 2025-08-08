@@ -1,5 +1,38 @@
 @import "tailwindcss";
 
 html {
-    background-color: #1B1816;
+  background-color: #1B1816;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.landing-bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/cover.jpg'); /* adjust path as needed */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Brittany';
+  src: url('BrittanySignature.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.brittany-font {
+  font-family: 'Brittany', sans-serif;
+}
+
+/* Crop 100px from the left on small screens */
+@media (max-width: 1360px) {
+  .landing-bg {
+    background-position: calc(-100px) top;
+  }
 }

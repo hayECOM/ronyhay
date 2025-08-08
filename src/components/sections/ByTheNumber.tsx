@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 
 export default function ByTheNumber() {
     return (
-        <section className="flex flex-col justify-center gap-16 mt-24 mb-36 text-white">
+        <section className="flex flex-col justify-center gap-16 pt-24 pb-36 text-white">
             <header className="flex flex justify-center font-bold text-[32px] md:text-[42px]">By The Numbers</header>
             <section className="flex flex-col xl:flex-row justify-center gap-10 md:gap-20">
                 <div className="flex flex-col justify-center md:flex-row gap-10 md:gap-20">
