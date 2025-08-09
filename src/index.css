@@ -3,6 +3,7 @@
 html {
   background-color: #1B1816;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 }
 
 .landing-bg {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-image: url('/cover.jpg'); /* adjust path as needed */
   background-repeat: no-repeat;

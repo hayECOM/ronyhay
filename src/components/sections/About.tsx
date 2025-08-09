@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 export default function About() {
     return (
-        <section className="flex flex-col-reverse xl:flex-row justify-center items-center text-white gap-12 pt-20">
+        <section className="flex flex-col-reverse xl:flex-row justify-center items-center text-white gap-12 pt-20 overflow-x-hidden w-full max-w-full">
             <motion.div
                 initial={{ opacity: 0, x: -150 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -12,7 +12,7 @@ export default function About() {
                     stiffness: 60,
                     damping: 18,
                 }}
-                className="w-3/4 md:w-[700px]"
+                className="w-[90%] md:w-[700px]"
             >
                 <header className="flex justify-center xl:justify-start font-bold pb-6 text-[42px]">About</header>
                 <section className="flex flex-col gap-4 text-[18px]">
@@ -33,7 +33,7 @@ export default function About() {
                     damping: 18,
                 }}
             >
-                <img src="about.jpg" alt="about" width={380} />
+                <img src="about.jpg" alt="about" width={380} className='max-w-full h-auto' />
             </motion.div>
         </section>
     )
